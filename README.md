@@ -11,6 +11,12 @@ its A handlebars expression and refers to the template input object value.
    response.send(200).json(animals);
 });
 
+ **solution:**
+
+ *we should replace (response.send(200)) with (response.status(200))*
+ *then the output will be the array animals ['Cat','Dog','Sheep']*
+
+
 ## 3. Write a Constructor function that can create an instance of a person, with a name and an age, given 2 arguments
 
 Your code goes here...
